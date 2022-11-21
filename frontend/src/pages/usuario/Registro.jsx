@@ -12,9 +12,9 @@ const Registro = () => {
           className="relative w-0 md:w-1/2 lg:w-0 sm:w-0"
         />
         <div>
-          <h1 className="font-bold text-6xl uppercase text-center md:w-2/3 mx-auto">
+          <h1 className="font-bold text-3xl uppercase text-center md:w-2/3 mx-auto">
             Registrate y disfruta de nuestros{' '}
-            <span className="text-sky-700">productos</span>
+            <span className="text-primary">productos</span>
           </h1>
           <form className="p-4 mx-auto w-96 sm:px-9 mt-8 shadow-md">
             <div className="mb-5">
@@ -75,7 +75,7 @@ const Registro = () => {
             <input
               type="submit"
               value="Ingresar"
-              className="uppercase bg-sky-700 text-white p-2 rounded-md w-full"
+              className="uppercase bg-primary text-white p-2 rounded-md w-full"
             />
             <div className="flex justify-between px-4 mt-5 text-slate-500 ">
               <Link to="/" className="">
