@@ -13,19 +13,22 @@ const Login = () => {
           className="relative w-0 md:w-1/2 lg:w-0 sm:w-0"
         />
         <div>
-          <div>
-          <img
-          src={logoOficial}
-          alt="imagen login"
-          className="relative w-0 md:w-1/2 lg:w-0 sm:w-0"
-        />
-          </div>
-          <div>
-              <h1 className="font-bold text-6xl uppercase text-center md:w-2/3 mx-auto">
+          <section>
+            
+          </section>
+          
+          <section>
+
+              <h1 className="font-bold text-4xl uppercase text-center md:w-2/3 mx-auto">
+                <img
+                src={logoOficial}
+                alt="imagen login"
+                className='object-center md:object-top'
+                />
                 Ingresa y disfruta nuestros{' '}
                 <span className="text-sky-700">productos</span>
               </h1>
-          </div>
+          </section>
 
           <form className="p-4 mx-auto w-96 sm:px-9 mt-8 shadow-md">
             <div className="mb-5">
